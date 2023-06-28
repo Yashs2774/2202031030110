@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <style>
+        td img {
+
+            height: 30px;
+            width: 40px;
+        }
+
+        td input[type=text] {
+            height: 30px;
+            width: 300px;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+        }
+
+        textarea {
+            width: 300px;
+        }
+
+        body {
+            font-size: larger;
+        }
+
+        table {
+            height: 550px;
+            width: 400px;
+            padding:10px;
+            
+        }
+
+        td input[type=button] {
+            height: 35px;
+            width: 150px;
+                
+        }
+    </style>
+</head>
+
+<body>
+    <table align="center">
+        <thead>
+            <tr>
+                <td align="center" colspan="2" style="font-size: xx-large; margin-top: 500px;">Registration Form</td>
+            </tr>
+        </thead>
+        <tbody>
+            <form action="">
+            <tr>
+                <td><img src="name.png" alt=""></td>
+                <td><input type="text" name="First name" id="f_name" placeholder="Enter First Name"></td>
+            </tr>
+            <tr>
+                <td><img src="name.png" alt=""></td>
+                <td><input type="text" name="Last name" id="l_name" placeholder="Enter Last Name"></td>
+            </tr>
+            <tr>
+                <td><img src="gender.png" alt=""></td>
+                <td id="radio">
+                    <input type="radio" value="Male" name="gender" id="m_gender"> Male
+                    <input type="radio" value="Female" name="gender" id="f_gender"> Female
+                </td>
+            </tr>
+            <tr>
+                <td><img src="address.png" alt=""></td>
+                <td><textarea name="Address" id="address" cols="25" rows="5"
+                        placeholder="Enter Full Address"></textarea></td>
+            </tr>
+            <tr>
+                <td><img src="username.png" alt=""></td>
+                <td><input type="text" name="User Name" id="username" placeholder="Enter User ID"></td>
+            </tr>
+            <tr>
+                <td><img src="password.png" alt=""></td>
+                <td><input type="text" name="Pass-Word" id="password" placeholder="Enter Password"></td>
+            </tr>
+            <tr>
+                <td><img src="confirm password.png" alt=""></td>
+                <td><input type="text" name="Confirm Pass-Word" id="cnfpassword" placeholder="Confirm Password"></td>
+            </tr>
+            <tr>
+                <td align="center" colspan="2"><input type="button" name="Submit" id="submit_btn" value="Submit">
+                    <input type="button" name="Reload" id="reload_btn" value="Reload">
+                </td>
+            </tr>
+        </form>
+        </tbody>
+    </table>
+</body>
+
+</html>
